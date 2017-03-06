@@ -4,5 +4,5 @@ find ALL -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo -n {} && cd {} && gi
 find ALL -maxdepth 1 -mindepth 1 -type d -exec ls {}/.git>/dev/null  \;
 
 echo CONSIDER:
-echo 'ls -1  */.git/config | xargs -n 1 grep jarogames'
-echo 'cat  */.tags | sort | uniq '
+echo 'ls -1  ALL/*/.git/config | xargs -n 1 grep jarogames'
+echo 'cat  ALL/*/.tags | sort | uniq '
