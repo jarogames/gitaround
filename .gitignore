@@ -1,2 +1,11 @@
 ALL/*
 By*
+.ipynb_checkpoints/
+NuPhyPy/
+TOVERIFY_REMOVE/
+e.jpg
+fork.py
+*~
+*.ipynb
+nuphytest.py
+*.jpg
