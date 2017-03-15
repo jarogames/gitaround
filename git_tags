@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#####ls -1  ALL/*/.git/config | xargs -n 1 grep jarogames
+echo "ALL UNIQUE TAGS"
+cat  ALL/*/.tags | sort | uniq 
