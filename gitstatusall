@@ -3,8 +3,8 @@
 find ALL -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo -n {} && cd {} && git status -s && echo)' \;
 find ALL -maxdepth 1 -mindepth 1 -type d -exec ls {}/.git>/dev/null  \;
 
-echo CONSIDER:
-echo ...        check if all ssh keys are properly set
-echo 'ls -1  ALL/*/.git/config | xargs -n 1 grep jarogames'
-echo ...        check all possible used tags 
-echo 'cat  ALL/*/.tags | sort | uniq '
+##echo CONSIDER:
+#echo ...        check if all ssh keys are properly set
+#echo 'ls -1  ALL/*/.git/config | xargs -n 1 grep jarogames'
+#echo ...        check all possible used tags 
+#echo 'cat  ALL/*/.tags | sort | uniq '
