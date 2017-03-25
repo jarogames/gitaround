@@ -3,3 +3,5 @@
 echo "Check ssh keys"
 ls -1  ALL/*/.git/config | xargs -n 1 grep jarogames
 ####cat  ALL/*/.tags | sort | uniq 
+ls -1  ALL/*/.git/config | xargs -n 1 grep jaromrax
+####cat  ALL/*/.tags | sort | uniq 
