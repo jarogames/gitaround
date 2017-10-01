@@ -4,7 +4,10 @@ from contextlib import contextmanager
 from github import Github
 import os
 import getpass
-
+"""
+this will import all repos to ALL/ directory 
+and sorts by .tags
+"""
 ################  CD from http://stackoverflow.com/questions/431684/how-do-i-cd-in-python
 @contextmanager
 def cd(newdir):

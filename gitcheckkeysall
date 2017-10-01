@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Check ssh keys"
+find ALL -maxdepth 1 -mindepth 1 -type d -exec sh -c '( cd {} && grep github\.com .git/config )' \;
+#ls -1  ALL/*/.git/config | xargs -n 1 grep 
+####cat  ALL/*/.tags | sort | uniq 
+#ls -1  ALL/*/.git/config | xargs -n 1 grep 
+####cat  ALL/*/.tags | sort | uniq 
